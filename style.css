@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.body{
+    background-color: aquamarine;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.navbar-toggler {
+    padding: 8px 15px;
+    border: 1;
+    border-radius: 0;
+    transform: skewX(-15deg);
+    background-color: rgba(44, 40, 40, 0.5);
+    color: rgb(236, 13, 13);    
+}
+
+
+.navbar-toggler i { transform: skewX(15deg);
+ }
+ .navbar-toggler button{border-color: red;
+    background-color: rgb(73, 72, 71);
+}
+
+.navbar-expand-lg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link { padding: 0; }
+
+.navbar-expand-lg .navbar-nav .tm-nav-link {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(240, 10, 10);    
+    padding-bottom: 30px;    
+}
+
+.nav-item { margin-right: 60px; }
+
+.nav-item:last-child { margin-right: 0; }
+
+.nav-item.active .tm-nav-link,
+.nav-item:hover .tm-nav-link {
+    color: #9CC;
+}
+
+.wrapper {
+    background-color: aquamarine;
+    width: 100%;
+    height: 1400%;
+    position:absolute;
+    background-size: 2000% 100%;
+    
+  
+}
+
+
+li{
+    font-size:20px;
+    font-style: italic;
+        color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+h1
+{
+    font-size:25px;
+    font-style: italic;
+    
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+/* .container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: red;
+    background: #27DBB1;
+    width: 500px;
+    height: 300px;
+    margin: 10% auto;;
+    border-radius: 5px;
+} */
+
+/* .content-holder
+{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 15%;
+    padding: 50px;
+}
+.content-holder h2
+{
+    font-size: 34px;
+    margin: 20px auto;
+}
+
+.content-holder p
+{
+    margin: 30px auto;
+} */
+.loginbox{
+    background-color:lightgray;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 85px;
+    
+  
+}
+
+.login-form-container
+{
+    text-align: center;
+    
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+
+}
+
+.login-form-container h1
+{
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.input-field
+{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(168, 168, 168);
+    width: 250px;
+    outline: none;
+}
+
+.login-button{
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    background-color: rgb(56, 102, 189);
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .list
+     {
+        width: 70%;
+    }
+}
+#container{
+    position: absolute;
+    top:10em;
+    width: 100%;
+    height: 250px;
+    
+}
+.todocontent {
+    margin-left: 5%;
+}
+#list{
+    position: absolute;
+     margin-left: 5%; 
+    top:15em;
+    
+    width: 65%;
+    font-family:sans-serif;
+    border-collapse: collapse;
+    border: 1.5px solid #ddd;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px black;
+    border-radius: 15px;
+}
+#list thead{
+    font-size: large;
+    text-align: justify;
+    padding: 12px;
+
+    color:antiquewhite
+}
+#list th{
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: rgb(32, 31, 30);
+    text-align: center;
+}
+#list td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: rgb(32, 31, 30);
+}
+#list tr:hover{
+background-color:slategray;
+}
+
+#todobutton{
+   
+    color:rgb(19, 62, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    font-size: large;
+    padding: 9px;
+    background-color:floralwhite;
+    border-radius: 1px;
+    
+}
+#todobutton:hover{
+    opacity:12;
+}
